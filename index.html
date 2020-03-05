@@ -84,16 +84,16 @@
       function drawChart() {
 
         var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['Work',     11],
-          ['Eat',      2],
-          ['Commute',  2],
-          ['Watch TV', 2],
-          ['Sleep',    7]
+          ['Task', 'Amount of people'],
+          ['Cryogenic sleep',     18],
+          ['Maintenance duties',      2],
+          ['Night watch',  1],
+          ['Eating', 2],
+          ['Sleeping',    4]
         ]);
 
         var options = {
-          title: 'My Daily Activities'
+          title: 'Passenger status'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
